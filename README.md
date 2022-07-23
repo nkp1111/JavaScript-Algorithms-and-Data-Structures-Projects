@@ -10,12 +10,12 @@ This is it — time to put your new JavaScript skills to work. These projects ar
 
 Complete these 5 JavaScript projects to earn the JavaScript Algorithms and Data Structures certification.
 
-Palindrome Checker,
+1. Palindrome Checker
 
-Roman Numeral Converter,
+2. Roman Numeral Converter
 
-Caesars Cipher,
+3. Caesars Cipher
 
-Telephone Number Validator,
+4. Telephone Number Validator
 
-Cash Register,
+5. Cash Register
