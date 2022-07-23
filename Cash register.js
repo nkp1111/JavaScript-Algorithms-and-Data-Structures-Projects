@@ -47,10 +47,9 @@ function checkCashRegister(price, cash, cid) {
   let newcid = [...cid].reverse();
   let totalMoney = 0;
   let moneyBack = cash - price; // Amount to be return 
-  console.log(moneyBack)
 
   for (let i = 0; i < val.length; i++) {
-    totalMoney += newcid[i][1]
+    totalMoney += newcid[i][1];
     let numNotes = 0;
 
     while (val[i][1] <= moneyBack) {
@@ -59,14 +58,13 @@ function checkCashRegister(price, cash, cid) {
         numNotes += 1;
       }
       else {
-        break
+        break;
       }  
     }
     if (numNotes > 0) {
       change.push([val[i][0], val[i][1] * numNotes]);
       numNotes = 0;
-    }
-    
+    }  
   }
   if (moneyBack != 0) {
     status = "INSUFFICIENT_FUNDS";
@@ -78,15 +76,13 @@ function checkCashRegister(price, cash, cid) {
     }
     else {
       status = "CLOSED";
-      console.log(cid[0])
       change = cid;
     }
   } 
 
 
   let finalReturn = {"status": status, "change": change};
-  
-  console.log(finalReturn, totalMoney)
+
   return finalReturn;
 }
 
