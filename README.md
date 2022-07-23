@@ -10,7 +10,7 @@ This is it — time to put your new JavaScript skills to work. These projects ar
 
 Complete these 5 JavaScript projects to earn the JavaScript Algorithms and Data Structures certification.
 
-Palindrome Checker,
+Palindrome Checker,\n
 Roman Numeral Converter,
 Caesars Cipher,
 Telephone Number Validator,
